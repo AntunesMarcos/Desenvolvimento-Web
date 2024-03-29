@@ -1,0 +1,187 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+.rodape p{
+    display: flex;
+    justify-content: center;
+    font-family: "Ubutu";
+    margin: 0%;
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+main, footer{
+    background-color: lightcyan;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+}
+.logo-do-site{
+    width: 10vh;
+    height: 10vh;
+    padding: 10px 30px;
+}
+.nome-loja{
+    margin: 0px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.redes{
+    display: inline;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.redes:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+}
+.informacoes{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: end;
+}
+
+
+@media screen and  (max-width: 1017px) {
+        .navbar{
+        width: 100vw;
+    }
+    .informacoes{
+        display: none;
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    .qualidades-pai{
+        display: none;
+}
+main{
+    flex-direction: column;
+}
+
+
+    aside{
+        display: none;
+    }
+    
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+main{
+    display: flex;
+}
+article{
+    flex: 2;
+    padding: 20px;
+}
+aside{
+    flex: 0.5;
+    padding: 10px;
+}
+.conteiner{
+    display: flex;
+    
+}
+.conteiner > div{
+    flex: 1;
+    padding: 10px;
+}
+.conteiner img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.itens1{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+.itens2{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    flex-direction: column;
+
+    }
+.itens3{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;  
+    flex-direction: column;
+
+}
+.itens4{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    flex-direction: column;
+
+}
+.itens5{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+img{
+    height: 20vh;
+    width: 20vh;
+}
+ul{
+    padding: 0%;
+}
+.qualidades-pai p{
+    text-align: justify;
+}
+h1, h2, h3,p, .qualidades{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+span{
+    display: flex;
+}
