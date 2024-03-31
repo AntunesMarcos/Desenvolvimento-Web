@@ -1,0 +1,37 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #343a40;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    aside {
+        background-color: #f8f9fa;
+        padding: 20px;
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+    }
+    main {
+        padding: 20px;
+        float: left;
+        width: 75%;
+        box-sizing: border-box;
+    }   
+    .card {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    img{
+        width: 50%;
+    }
+    .h1{
+        color: #212529;
+        font-size: 40px;
+        font-family: Arial, sans-serif;
+    }
+
