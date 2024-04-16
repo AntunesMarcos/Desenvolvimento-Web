@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Meu Portfólio</title>
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-light py-4">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <h1>Marcos Antunes</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#repositorios">Repositórios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conteudos">Conteúdos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#colegas">Colegas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="perfil" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/imagens/eu.jpg" alt="Perfil" class="img-fluid rounded-circle mb-3">
+                    <h2>Marcos Antunes</h2>
+                    <div class="d-flex">
+                        <button class="btn btn-primary me-2" ><a href="https://www.linkedin.com/in/marcos-antunes-7190572ba/" target="_blank">LinkedIn</a></button>
+                        <button class="btn btn-secondary me-2"><a href="https://github.com/AntunesMarcos" target="_blank">GitHub</a></button>
+                        <button class="btn btn-info me-2"><a href="https://twitter.com/_marcosfxp_" target="_blank">X</a></button>
+                        <button class="btn btn-dark"><a href="https://www.instagram.com/marcos_antune5/" target="_blank">Instagram</a></button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3>Sobre Mim</h3>
+                    <p>Eu sou Marcos de Oliveira Antunes. Prefiro ser chamado apenas de Marcos Antunes.</p>
+                    <p>Sou do interior do norte de Minas Gerais. Atualmente, estudo engenharia de software na PUC Minas, mas sou formado como técnico em informática pelo Instituto Federal do Norte de Minas Gerais (IFNMG).</p>
+                    <p>Comecei a gostar de programação no ensino médio, quando estudava no IFNMG. Penso em seguir carreira na área de back-end ou full stack.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="repositorios" class="py-5 bg-light">
+        <div class="container">
+            <h2>Repositórios</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card">
+                        <a href="/Algoritimos.html"><img src="/imagens/repositorio1.jpg" class="card-img-top" alt="Repo 1">
+                            </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Algoritimos</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="/desenvolvimento.html"><img src="/imagens/vscode.jpeg" class="card-img-top" alt="Repo 2"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento web</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <a href="/java.html"><img src="/imagens/java.png" class="card-img-top" alt="Repo 3"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">IF - Java</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="conteudos" class="py-5">
+        <div class="container">
+            <h2>Conteúdos</h2>
+            <div id="carouselConteudos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagens/carrosel/vscode.jpg" class="d-block w-100" alt="Conteúdo 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carrosel/python.png" class="d-block w-100" alt="Conteúdo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carrosel/repositorio1.jpg" class="d-block w-100" alt="Conteúdo 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carrosel/java.png" class="d-block w-100" alt="Conteúdo 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/carrosel/repositorio2.jpg" class="d-block w-100" alt="Conteúdo 5">
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselConteudos" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselConteudos" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselConteudos" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselConteudos" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselConteudos" data-bs-slide-to="4"></li>
+                </ol>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselConteudos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselConteudos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="colegas" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Colegas</h2>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <a href="https://www.instagram.com/felipeaugustps/" target="_blank"><img src="/imagens/felipe.jpg" alt="Colega 1" class="img-fluid rounded-circle mb-2"></a>
+                    <h5>Felipe</h5>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/reis__biel/" target="_blank"><img src="/imagens/gabriel.jpg" alt="Colega 2" class="img-fluid rounded-circle mb-2"></a>
+                    <h5>Gabriel</h5>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/guivieira05/" target="_blank"><img src="/imagens/guilherme.jpg" alt="Colega 3" class="img-fluid rounded-circle mb-2"></a>
+                    <h5>Guilherme</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Marcos Antunes</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+
+</html>

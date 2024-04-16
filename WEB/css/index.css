@@ -3,7 +3,6 @@ body{
     margin: 0%;
     padding: 0;
     height: 100%;
-    background-color: lightcyan;
     display: flex;
     flex-direction: column;
     min-height: 100%;
