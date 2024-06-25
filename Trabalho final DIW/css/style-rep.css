@@ -1,0 +1,175 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 80vh;
+        }
+        
+        header {
+            background: #6c63ff;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        .header-content {
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        nav ul li {
+            margin: 0;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        .repos {
+            margin-bottom: 20px;
+        }
+
+        .repo-list {
+            justify-content: start;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .repo-card {
+            min-height: 300px;
+            min-width: 100%;
+            max-width: 300px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(33.333% - 20px);
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
+        .repo-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .repo-info {
+            flex-grow: 1;
+        }
+
+        .repo-info h4 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #6c63ff;
+        }
+
+        .repo-info p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .repo-footer {
+            display: flex;
+            justify-content: end;
+            gap: 15px;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: #6c63ff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #5753c9;
+        }
+
+        .github {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            background: #6c63ff;
+            color: #fff;
+            padding: 3px;
+            text-align: center;
+            border-radius: 5px;
+            transition: background 0.3s;
+            width: 100%;
+        }
+
+        .github:hover {
+            background: #5753c9;
+        }
+
+        .nome {
+            margin-bottom: 10px;
+        }
+
+        .img-github {
+            margin-right: 5px;
+        }
+
+        .amigos {
+            display: flex;
+            justify-content: center;
+            
+        }
+        
